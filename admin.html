@@ -12,14 +12,17 @@
 </head>
 <body>
     <main class="t-base">
-        
+
     <section class="data" data-container>
         <div class="data__container">
             <form action="" class="data__form" data-form>
                 <h1 class="data__form-title">Добавить персону</h1>
-                <label for="name" class="data__form-label">Для кого приглашение?</label>
+                <label for="name" class="data__form-label">Имя</label>
                 <input type="text" class="el-field data__form-input" id="name">
-               
+                <label for="surname" class="data__form-label">Фамилия</label>
+                <input type="text" class="el-field data__form-input" id="surname">
+                <label for="lastName" class="data__form-label">Отчество</label>
+                <input type="text" class="el-field data__form-input" id="lastName">
                 <label for="phone" class="data__form-label">Номер телефона</label>
                 <input type="number" class="el-field data__form-input" id="phone">
                 <button class="btn" type="submit">Добавить</button>
@@ -31,7 +34,7 @@
 
     </main>
 
-    
+
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
 
@@ -58,6 +61,6 @@
             const db = firebase.firestore();
         </script>
         <script src="admin/js/scripts.js"></script>
-    
+
 </body>
 </html>
