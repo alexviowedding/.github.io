@@ -938,9 +938,11 @@ label {
       color: #737373; }
     .description__section-label {
       font-weight: 500;
-      padding-bottom: 0.3125rem; }
-    .description__section-desc {
+      padding-bottom: 0.3125rem;
       text-align: center; }
+    .description__section-desc {
+      text-align: center;
+      margin-bottom: 1rem; }
     .description__section-list {
       list-style: none; }
   @media screen and (min-width: 30rem) {
@@ -959,9 +961,7 @@ label {
     .description__timer-img {
       width: 40.625rem; }
     .description__section {
-      margin-right: 1.25rem; }
-      .description__section-desc {
-        text-align: left; } }
+      margin-right: 1.25rem; } }
   @media screen and (min-width: 48rem) {
     .description__depiction {
       display: grid;
@@ -1112,7 +1112,6 @@ label {
     margin-bottom: 1.875rem; }
   .s-social__link {
     font-size: 1.125rem;
-    text-transform: uppercase;
     display: inline-block;
     width: auto; }
   .s-social__phone {
